@@ -106,7 +106,7 @@ $(document).ready(function() {
     var inputtedHomeAddress = $("input#new-home-address").val();
     var inputtedWorkAddress = $("input#new-work-address").val();
 
-    if (inputtedHomeAddress === ""){
+    if (inputtedHomeAddress === null){
       $("p").remove("#hAddress");
     }
     if (inputtedWorkAddress === ""){
